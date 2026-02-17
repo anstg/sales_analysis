@@ -13,7 +13,9 @@
 <p align="center">
   <img src="https://github.com/anstg/sales_analysis/blob/main/images/avg%20month%20and%20age.jpg" width="650">
 </p>
-
+<p align="center">
+  <img src="https://github.com/anstg/sales_analysis/blob/main/images/age%20group%20share.jpg" width="650">
+</p>
 ## Использование
 
 1. Генерация данных:
