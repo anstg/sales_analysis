@@ -8,7 +8,7 @@
 - Визуализация
 
 <p align="center">
-  <img src="(https://github.com/anstg/sales_analysis/blob/main/images/avg%20age.jpg)" width="650">
+  <img src="https://github.com/anstg/sales_analysis/blob/main/images/avg%20age.jpg" width="650">
 </p>
 
 
