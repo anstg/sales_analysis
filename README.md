@@ -7,7 +7,7 @@
 - Определение топ-5 продуктов по доходу и их доля
 - Визуализация
 
-https://github.com/anstg/sales_analysis/images/avg age.jpg
+[https://github.com/anstg/sales_analysis/images/avg age.jpg](https://github.com/anstg/sales_analysis/blob/main/images/avg%20age.jpg)
 
 ## Использование
 
