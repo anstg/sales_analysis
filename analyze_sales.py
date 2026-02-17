@@ -119,22 +119,21 @@ def plot_product_distribution(sales):
     from collections import Counter
     import matplotlib.pyplot as plt
 
-    # Считаем количество покупок по каждому продукту
     product_counts = Counter(r['productId'] for r in sales)
     
-    # Сортируем по количеству покупок (опционально)
+ 
     product_counts = dict(sorted(product_counts.items(), key=lambda x: x[1], reverse=True))
 
     products = [f"Product {p}" for p in product_counts.keys()]
     counts = list(product_counts.values())
 
-    plt.figure(figsize=(10,5))  # увеличиваем окно графика
+    plt.figure(figsize=(10,5))  
     plt.bar(products, counts, color='purple')
     plt.title("Количество покупок по продуктам")
     plt.ylabel("Количество")
     plt.xlabel("Продукты")
-    plt.xticks(rotation=45, ha='right')  # подписи наклонные
-    plt.tight_layout()  # чтобы подписи не обрезались
+    plt.xticks(rotation=45, ha='right') 
+    plt.tight_layout()  
     plt.show()
 
 if __name__ == "__main__":
@@ -154,4 +153,5 @@ if __name__ == "__main__":
     plot_monthly_trends(sales)
     plot_age_group_share(sales)
     plot_product_distribution(sales)
+
 
