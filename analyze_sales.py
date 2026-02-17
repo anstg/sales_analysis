@@ -1,7 +1,7 @@
 import csv
 from collections import defaultdict
 import matplotlib.pyplot as plt
-print("библиотека есть!")
+
 
 def read_sales(file_path="data/sales.csv"):
     sales = []
@@ -154,3 +154,4 @@ if __name__ == "__main__":
     plot_monthly_trends(sales)
     plot_age_group_share(sales)
     plot_product_distribution(sales)
+
